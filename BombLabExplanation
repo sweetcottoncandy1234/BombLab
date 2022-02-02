@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>DS project</title>
+		<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+		<style>
+			#maya{
+				font-family: 'Sacramento', cursive;
+				color:black;
+			}
+			body{
+				background:pink;
+				font-size: 25px;
+			}
+		</style>
+        </head>
+	<body>
+		<span id="maya"> 
+			Here's the writeup for the final project of my data structures class.
+			<br/>
+			<img src = "https://sweetcottoncandy1234.github.io/Images/Screenshot (36).png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/DADB/realLLDA.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/DADB/readLLDB.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/DADB/BSTDA.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/DADB/BSTDB.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/DADB/readHLDA.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/DADB/realHLDB.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/DADB/HCDA.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/DADB/HCDB.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/DADB/HQDA.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/DADB/HQDB.png">
+			<br/>
+			<br/>Here's the code for the final project.
+			<img src = "https://sweetcottoncandy1234.github.io/Images/websiteProject1.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/websiteProject2.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/websiteProject3.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/websiteProject4.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/websiteProject5.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/websiteProject6.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/websiteProject7.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/websiteProject8.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/websiteProject9.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/websiteProject10.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/websiteProject11.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/websiteProject12.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/websiteProject13.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/websiteProject14.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/websiteProject15.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/websiteProject16.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/websiteProject17.png">
+			<img src = "https://sweetcottoncandy1234.github.io/Images/websiteProject18.png">
+			
+		</span>
+	</body>
+</html>
