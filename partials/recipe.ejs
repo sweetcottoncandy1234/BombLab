@@ -1,0 +1,73 @@
+<div class = "row">
+    <% if (items) { 
+        console.log(items); 
+        
+        var asdf = items.meals[0].strMeal;
+        var brap = items.meals[0].strMealThumb;
+        var maya = items.meals[0].strTags;
+        var btnCls = "";
+        if (!items.meals[0].strSource) {
+          btnCls = "disabled";
+          console.log(btnCls);
+        }
+        var srcBtn = "<a href=\"" + items.meals[0].strSource + "\" class=\"btn btn-primary btn-lg" + btnCls + "\" role=\"button\" aria-disabled=\"true\">Source link</a>";
+
+        %>
+        <h1><%- asdf -%> </h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <div> Tags: <%- items.meals[0].strTags -%></div>
+        <img src=<%- brap -%> width="500" height="600">
+              
+          <%- srcBtn -%>
+          <a href="<%- items.meals[0].strYoutube -%>" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Youtube</a>
+          <!-- <tr>
+            <th><p> Source link: <%- items.meals[0].strSource -%></p></th>
+          </tr>
+          <tr>
+            <th><p> Youtube: <%- items.meals[0].strYoutube -%></p></th>
+          </tr> -->
+        <!-- <p> Tags: <%- items.meals[0].strTags -%></p>
+        <p> Tags: <%- items.meals[0].strSource -%></p> -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add Review</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="Add Review">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Add Review</h4>
+      </div>
+      <div class="modal-body">
+        <form action = "/addReview" method = "post" id="reviewmodal">
+        <div style="width:200px;height:20px;border:1px solid #000;">Recipe Name</div> 
+          <input type="text" id="rname" name="rname"><br>
+        <br>
+        <div style="width:200px;height:20px;border:1px solid #000;">Enter review here: </div>
+          <input type="text" id="review" name="review"><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+        <!-- <input type="submit" value="Submit"> -->
+      </div>
+    </div>
+
+  </div>
+</div>
+    <% } %>
+    <!-- <div class="card">
+        <div class="card-body">
+          This is some text within a card body.
+        </div>
+      </div> -->
+</div>
